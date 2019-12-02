@@ -59,14 +59,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
     vendor/asus/X00T/proprietary/lib/libsdsprpc_system.so:system/lib/libsdsprpc_system.so \
     vendor/asus/X00T/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
-    vendor/asus/X00T/proprietary/lib/libwfdclient.so:system/lib/libwfdclient.so \
     vendor/asus/X00T/proprietary/lib/libwfdcodecv4l2.so:system/lib/libwfdcodecv4l2.so \
     vendor/asus/X00T/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
     vendor/asus/X00T/proprietary/lib/libwfdconfigutils.so:system/lib/libwfdconfigutils.so \
     vendor/asus/X00T/proprietary/lib/libwfdmminterface.so:system/lib/libwfdmminterface.so \
     vendor/asus/X00T/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
     vendor/asus/X00T/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
-    vendor/asus/X00T/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
     vendor/asus/X00T/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
     vendor/asus/X00T/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
     vendor/asus/X00T/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
@@ -110,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/libsdsprpc_system.so:system/lib64/libsdsprpc_system.so \
     vendor/asus/X00T/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/asus/X00T/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-    vendor/asus/X00T/proprietary/lib64/libwfds.so:system/lib64/libwfds.so \
     vendor/asus/X00T/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/asus/X00T/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
     vendor/asus/X00T/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so \
@@ -805,7 +802,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmm-color-convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-color-convertor.so \
-    vendor/asus/X00T/proprietary/vendor/lib/libmm-hdcpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-hdcpmgr.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/asus/X00T/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
